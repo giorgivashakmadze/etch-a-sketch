@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    overflow: hidden;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+}
+
+.grid-square {
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 100%;
+    padding-top: 100%;
+}
